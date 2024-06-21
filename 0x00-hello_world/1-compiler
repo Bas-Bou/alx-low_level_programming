@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Get the filename from the environment variable CFILE
+filename="$CFILE"
+
+# Compile the C file without linking, outputting to a .o file with the same name
+gcc -c "$filename"
