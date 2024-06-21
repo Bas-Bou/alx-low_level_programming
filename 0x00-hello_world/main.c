@@ -1,11 +1,6 @@
+// main.c
 #include <stdio.h>
-
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-    return (0);
+int main(void) {
+    printf("Hello, world!\n");
+    return 0;
 }
