@@ -1,10 +1,2 @@
 #!/bin/bash
-filename="$CFILE"
-gcc -c "$filename"
-if [ $? -eq 0 ]; then
-    echo "Compilation successful."
-else
-    echo "Compilation failed."
-    exit 1
-fi
-
+echo 'gcc -c $CFILE' > 1-compiler
